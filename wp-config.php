@@ -21,16 +21,20 @@
 // ** Configurações do MySQL - Você pode pegar estas informações
 // com o serviço de hospedagem ** //
 /** O nome do banco de dados do WordPress */
-define('DB_NAME', 'jornadapat2017');
+define('DB_NAME', '#');
+
 
 /** Usuário do banco de dados MySQL */
-define('DB_USER', 'jornadapat2017');
+define('DB_USER', '#');
+
 
 /** Senha do banco de dados MySQL */
-define('DB_PASSWORD', 'Slsme@87');
+define('DB_PASSWORD', '#');
+
 
 /** Nome do host do MySQL */
-define('DB_HOST', 'jornadapat2017.mysql.dbaas.com.br');
+define('DB_HOST', '#');
+
 
 /** Charset do banco de dados a ser usado na criação das tabelas. */
 define('DB_CHARSET', 'utf8');
@@ -51,14 +55,22 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'RA9!V7l:8)q+zMsoPOVWq,puh{WL`pwVJ^w<(MZ09dKfTk9$z`E)8(Oc.$-!@wQe');
-define('SECURE_AUTH_KEY',  'qE*t)e]V,r Ou 4ia(NUdh/Z5nY!f{zc3dIxvNc~x<S,!Q&Bp(C4m1[Qz#6`tpmr');
-define('LOGGED_IN_KEY',    '9[uN[Z DE(AhQl=gir5syBSX>XR;j&?kgH:lyIyV%q)I<AjU[|zAx.`A*zER^$=*');
-define('NONCE_KEY',        'tSXWK2/;SO}Ub@R -q(mYm$6X+`@q<#~kNP33I1n^PaF=qk9(8{QH.rnm[h0R@`V');
-define('AUTH_SALT',        '=8X,B<iOrR~P1Z>&[5y@#=]ew$0PS]RaJ0j>G8.C|2}HiJ~G-r!S=@@EHH|v=gL|');
-define('SECURE_AUTH_SALT', '1Y%1`%X$uk}yAc,aF*LI35hF?Pu7=4))C|_>h$sEF#jRegp[A)RLwd&]b4US[4M#');
-define('LOGGED_IN_SALT',   'Hg!@6V 2c}g2wO%m1lJ)SkE@wrbdf!:e#.;AGJ_o:ow4/[?-yfnN+UJ6| vpLG_=');
-define('NONCE_SALT',       'ITXs#ash_Uu:$W]QZRH!$>1hA+2ZyJdtX[u,KM#>2=RKd^j]@rd|+C%T%t2t4ftx');
+define('AUTH_KEY',         'RA9!V7l:8)q+zMsoPOVWq,puh{WL`pwVJ^w<(MZ09dKfTk9$z`E)8(Oc.$-!@wQe');
+
+define('SECURE_AUTH_KEY',  'qE*t)e]V,r Ou 4ia(NUdh/Z5nY!f{zc3dIxvNc~x<S,!Q&Bp(C4m1[Qz#6`tpmr');
+
+define('LOGGED_IN_KEY',    '9[uN[Z DE(AhQl=gir5syBSX>XR;j&?kgH:lyIyV%q)I<AjU[|zAx.`A*zER^$=*');
+
+define('NONCE_KEY',        'tSXWK2/;SO}Ub@R -q(mYm$6X+`@q<#~kNP33I1n^PaF=qk9(8{QH.rnm[h0R@`V');
+
+define('AUTH_SALT',        '=8X,B<iOrR~P1Z>&[5y@#=]ew$0PS]RaJ0j>G8.C|2}HiJ~G-r!S=@@EHH|v=gL|');
+
+define('SECURE_AUTH_SALT', '1Y%1`%X$uk}yAc,aF*LI35hF?Pu7=4))C|_>h$sEF#jRegp[A)RLwd&]b4US[4M#');
+
+define('LOGGED_IN_SALT',   'Hg!@6V 2c}g2wO%m1lJ)SkE@wrbdf!:e#.;AGJ_o:ow4/[?-yfnN+UJ6| vpLG_=');
+
+define('NONCE_SALT',       'ITXs#ash_Uu:$W]QZRH!$>1hA+2ZyJdtX[u,KM#>2=RKd^j]@rd|+C%T%t2t4ftx');
+
 
 /**#@-*/
 
@@ -68,7 +80,8 @@ define('NONCE_SALT',       'ITXs#ash_Uu:$W]QZRH!$>1hA+2ZyJdtX[u,KM#>2=RKd^j]@rd|
  * Você pode ter várias instalações em um único banco de dados se você der
  * um prefixo único para cada um. Somente números, letras e sublinhados!
  */
-$table_prefix  = 'wp_';
+$table_prefix  = 'wp_';
+
 
 /**
  * Para desenvolvedores: Modo de debug do WordPress.
